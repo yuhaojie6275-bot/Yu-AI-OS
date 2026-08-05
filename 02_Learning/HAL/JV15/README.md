@@ -1,0 +1,48 @@
+## Purpose
+Define the JV15 course learning record, continuity rules, and note workflow.
+
+## Read By
+Human, ChatGPT, Claude Code, Codex
+
+## Update Frequency
+When JV15 learning state, course context, or note workflow rules change.
+
+## Related Files
+- 02_Learning/HAL/README.md
+- 02_Learning/HAL/JV15/Current.md
+- 02_Learning/HAL/JV15/Notes.md
+- 02_Learning/Current.md
+
+# JV15
+
+## Course Responsibility
+
+- Track confirmed JV15 learning state.
+- Preserve Java fundamentals continuity.
+- Support user-authored notes and AI review.
+
+## Teaching Baseline
+
+- Start from zero.
+- Beginner-first.
+- Systematic progression.
+- Do not assume fundamentals are complete.
+- Previously encountered topics may be recorded as confirmed exposure or study activity, not full prerequisite mastery.
+
+## Accuracy Rules
+
+- Do not assume completion.
+- Do not convert exposure into mastery.
+- Use `Not Confirmed` or `Unknown` when details are missing.
+- Do not invent teacher requirements, textbook structure, lesson content, or answers.
+- Acceptable evidence includes explicit user confirmation, repository evidence, actual lesson records, provided course materials, provided screenshots, and provided recordings or transcripts.
+
+## Note Workflow
+
+1. Complete the lesson or learning unit.
+2. Open `02_Learning/HAL/JV15/Notes.md`.
+3. User writes the final notes.
+4. AI reviews and identifies errors or missing points.
+5. User corrects the notes.
+
+AI-generated summaries are supplementary and must not replace user-authored notes.
