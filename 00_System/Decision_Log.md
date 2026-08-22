@@ -515,7 +515,7 @@ No Merge evidence is claimed. Commit and Draft PR evidence must be taken from th
 - Decision Date: 2026-08-05
 - Accepted By: Human — explicit standing authorization and revocation boundary confirmed on 2026-08-05
 - Scope: Git add, Commit, Push, branch, and Draft Pull Request routing for `yuhaojie6275-bot/Yu-AI-OS`
-- Related Documents: `00_System/AI_Constitution.md`, `00_System/Workflow.md`, `00_System/ChatGPT_Project_Instructions.md`, `AGENTS.md`, `.github/workflows/executive-summary.yml`
+- Related Documents: `00_System/AI_Constitution.md`, `00_System/Workflow.md`, `00_System/ChatGPT_Project_Instructions.md`, `AGENTS.md`, `.github/workflows/deterministic-checks.yml`
 - Related Modules: system-wide
 - Supersedes: None
 - Superseded By: None

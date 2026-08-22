@@ -4,7 +4,7 @@ Yu-AI-OS 是 Human 与 AI 协作建设的个人操作系统。它用稳定的治
 
 ## 当前状态
 
-第一层核心治理已经完成，七个核心治理文件均为 Active。Pull Request 默认提供简短中文执行摘要和确定性基础检查；自动化结果仅为 advisory，不能代替 Human Review 或 Merge Approval。
+第一层核心治理已经完成，七个核心治理文件均为 Active。Pull Request 默认运行确定性基础检查；自动化结果仅为 advisory，不能代替 Human Review 或 Merge Approval。Codex 任务报告和 GitHub diff 提供变更摘要，不再运行重复的 AI 执行摘要层。
 
 第一层完成不代表后续功能系统已经实现。下一里程碑是 **Skill Framework**。
 
@@ -24,7 +24,7 @@ Yu-AI-OS 是 Human 与 AI 协作建设的个人操作系统。它用稳定的治
 - [Board](00_System/Board.md)：决策评审层、角色职责、日常轻量检查和完整 Board 启停边界。
 - [Decision Log](00_System/Decision_Log.md)：重要 Human Decision 的理由、证据和状态。
 - [Latest Handoff](00_System/Handoff/Latest.md)：用于恢复工作的 dated snapshot，不是治理权威。
-- [Executive Summary Policy](00_System/Review/Policy.md)：执行摘要、确定性检查和 advisory 边界。
+- [Deterministic Checks Policy](00_System/Review/Policy.md)：确定性检查和 advisory 边界。
 - [ChatGPT Project Instructions](00_System/ChatGPT_Project_Instructions.md)：可复制到 ChatGPT Project 的 Tech Lead 启动说明，不是治理权威。
 
 ## 下一阶段
