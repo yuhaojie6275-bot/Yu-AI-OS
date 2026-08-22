@@ -12,7 +12,6 @@ When learning areas, module boundaries, or learning operating rules change.
 - 02_Learning/HAL/README.md
 - 02_Learning/HAL/WF15/Current.md
 - 02_Learning/HAL/JV15/Current.md
-- 02_Learning/HAL/CS15/Current.md
 - 02_Learning/HAL/DB15/Current.md
 - 02_Learning/AI_Tech/README.md
 - 01_Career/Roadmap.md
@@ -68,4 +67,4 @@ When learning areas, module boundaries, or learning operating rules change.
 - AI may review notes, identify factual errors, identify missing concepts, ask targeted questions, and provide small corrections.
 - AI should not silently replace user notes with a polished AI-generated version.
 - AI-generated summaries are supplementary and must not replace user-authored notes.
-- After a lesson or learning unit, hand off explicitly to the relevant `Notes.md` file.
+- After a lesson or learning unit, follow the relevant course README's handoff and note rules; courses may use different structures or external notes.
