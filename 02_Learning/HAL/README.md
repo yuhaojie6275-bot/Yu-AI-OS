@@ -40,23 +40,19 @@ When HAL coursework status, course boundaries, or study rules change.
 - Previously encountered topics may be recorded as exposure or study activity, not assumed mastery.
 - Accuracy is more important than completeness.
 - Acceptable evidence includes explicit user confirmation, repository evidence, actual lesson records, provided course materials, provided screenshots, and provided recordings or transcripts.
+- Each course may use a different file structure according to its actual maintenance needs.
+- The course README is the authoritative entry point for that course's teaching approach and directory structure.
 
-## Course Note Workflow
+## Course Continuity and Notes
 
-1. Teaching.
-2. Lesson completion.
-3. Required handoff to the relevant course `Notes.md`.
-4. User writes notes.
-5. AI reviews notes.
-6. AI identifies errors or missing concepts.
-7. User corrects notes.
+Each course README defines whether and how continuity or notes are maintained. No course is required to contain `Current.md` or `Notes.md`; user-authored notes may remain outside the repository.
 
 AI-generated summaries are supplementary and must not replace user-authored notes.
 
 ## Boundaries
 
 - Current cross-course learning status belongs in `02_Learning/Current.md`.
-- Course-specific continuity belongs in each course `Current.md`.
-- User-authored course notes belong in each course `Notes.md`.
+- Course-specific continuity and directory structure belong in each course README.
+- User-authored course notes follow the storage and handoff rules defined by that course; no fixed filename is required.
 - Daily school priorities belong in `04_Daily/Today.md`.
 - Stable reusable explanations belong in `05_Reference`.

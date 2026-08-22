@@ -12,7 +12,6 @@ After meaningful study sessions or when active learning priorities change.
 - 02_Learning/HAL/README.md
 - 02_Learning/HAL/WF15/Current.md
 - 02_Learning/HAL/JV15/Current.md
-- 02_Learning/HAL/CS15/Current.md
 - 02_Learning/HAL/DB15/Current.md
 - 02_Learning/AI_Tech/README.md
 - 04_Daily/Today.md
@@ -164,9 +163,9 @@ Learning preference:
 - Short practice questions.
 - Do not skip missing sections.
 
-Course file:
+Course entry:
 
-- 02_Learning/HAL/CS15/Current.md
+- 02_Learning/HAL/CS15/README.md
 
 ### DB15
 
@@ -234,4 +233,4 @@ Course file:
 - Accuracy is more important than completeness.
 - Keep notes concise enough for quick AI handoff.
 - Preserve course-specific context that prevents repeated teaching.
-- After lesson completion, hand off to the relevant course `Notes.md` file for user-authored notes and AI review.
+- After lesson completion, follow the relevant course README; the course may define its own handoff or external-note process.
