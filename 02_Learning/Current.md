@@ -119,53 +119,9 @@ Course file:
 
 ### CS15
 
-Status:
-
-- Course state: In Progress
-- Completion: Not Confirmed
-
-Teaching baseline:
-
-- Start from zero.
-- Beginner-first.
-- Systematic progression.
-- Do not assume computer systems prerequisites are complete.
-- Previously studied Chapter 3 topics may be recorded as real progress, but the course teaching model remains zero-baseline.
-- Do not skip missing foundations.
-
-Current area:
-
-- Computer systems fundamentals
-
-Confirmed progress:
-
-- CPU components
-- Registers
-- RAM and ROM
-- Memory hierarchy
-- Buses
-- Instruction cycle
-- Addressing modes
-- Interrupts
-
-Known status:
-
-- Chapter 3 content has been the main active area.
-- Sections around 3.1 to 3.4 have been studied substantially.
-- 3.5 has not yet been fully covered and should not be marked complete.
-
-Learning preference:
-
-- Core idea first.
-- Exam importance.
-- Internal computer behavior.
-- Simple analogy.
-- Short practice questions.
-- Do not skip missing sections.
-
-Course entry:
-
-- 02_Learning/HAL/CS15/README.md
+- Status: In Progress
+- Course entry: `02_Learning/HAL/CS15/README.md`
+- Current teaching position and active weaknesses follow the latest Human-confirmed learning context and the CS15 README; do not duplicate detailed course progress here.
 
 ### DB15
 
