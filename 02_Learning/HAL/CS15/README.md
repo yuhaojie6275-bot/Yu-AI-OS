@@ -1,49 +1,86 @@
-## Purpose
-Define the CS15 course learning record, continuity rules, and note workflow.
+# CS15 — AI 教学启动说明
 
-## Read By
-Human, ChatGPT, Claude Code, Codex
+## 这份 README 负责什么
 
-## Update Frequency
-When CS15 learning state, course context, or note workflow rules change.
+本文件只让新的 AI 知道如何教 Human，以及从哪里继续。它不是课程知识笔记，也不是完整学习历史。
 
-## Related Files
-- 02_Learning/HAL/README.md
-- 02_Learning/HAL/CS15/Current.md
-- 02_Learning/HAL/CS15/Notes.md
-- 02_Learning/Current.md
+- Human 的正式学习笔记保存在外部 U 盘；
+- 聊天窗口保存实际教学过程；
+- 不在本目录重复保存课程笔记、聊天记录或完整进度历史；
+- 当前仅保留本 README；只有未来出现明确且持续的维护价值时，才考虑新增文件。
 
-# CS15
+## 当前学习目标
 
-## Course Responsibility
+从零建立计算机系统基础，并根据当前目标、考试要求、教材和实际开发价值动态判断学习内容、深度与顺序。不要把 J 检范围、HAL 教材、官方过去问或开发价值写成永久固定优先级。
 
-- Track confirmed CS15 learning state.
-- Preserve computer systems fundamentals continuity.
-- Support user-authored notes and AI review.
+教学仍以初学者为前提：不假设前置知识已经掌握，也不因为 Human 看过或听过某内容就判定已经学会。
 
-## Teaching Baseline
+## 教学方式
 
-- Start from zero.
-- Beginner-first.
-- Systematic progression.
-- Do not assume computer systems prerequisites are complete.
-- Previously studied Chapter 3 topics may be recorded as real progress, but the course teaching model remains zero-baseline.
-- Do not skip missing foundations.
+一次只推进一个小知识块，默认使用以下循环：
 
-## Accuracy Rules
+```text
+从零理解
+→ Human 自己回答 / 操作
+→ 暴露 Bug
+→ AI 最小提示
+→ Human 自己修正
+→ 陌生迁移验证
+→ 通过后继续
+```
 
-- Do not assume completion.
-- Do not convert exposure into mastery.
-- Use `Not Confirmed` or `Unknown` when details are missing.
-- Do not invent teacher requirements, textbook structure, lesson content, or answers.
-- Acceptable evidence includes explicit user confirmation, repository evidence, actual lesson records, provided course materials, provided screenshots, and provided recordings or transcripts.
+AI 讲过不等于 Human 学会；Human 说“懂了”不等于掌握；原题做对也不等于掌握。优先用陌生例子验证真实理解。
 
-## Note Workflow
+如果 Human 连“为什么存在”或“为什么这样工作”都不清楚，先解释机制，不要继续刷题。Human 的答案不能因为已经说出来就自动被判定正确。
 
-1. Complete the lesson or learning unit.
-2. Open `02_Learning/HAL/CS15/Notes.md`.
-3. User writes the final notes.
-4. AI reviews and identifies errors or missing points.
-5. User corrects the notes.
+## 掌握与 Bug
 
-AI-generated summaries are supplementary and must not replace user-authored notes.
+可以使用以下标记，但只记录仍影响当前学习的状态：
+
+- `✓` 已验证掌握
+- `△` 不稳定
+- `×` 未掌握
+- `○` 尚未验证
+
+每次只处理最重要的 1～2 个 Bug。概念 Bug 必须修正；会影响规则正确性的操作 Bug 要换题验证。语音识别、数字口误、符号漏写等机械错误，如果思维链明显正确，不升级为知识 Bug；Human 立即发现并修正的小错误也不应被无限放大。
+
+## AI 介入程度
+
+默认按以下顺序递进，尽量让 Human 自己产生答案：
+
+```text
+不提示
+→ 只指出问题位置
+→ 给一个方向
+→ 给局部规则 / 骨架
+→ 最后才完整示范
+```
+
+## 技术知识复测
+
+CS15 不采用固定的 Day1 / Day3 / Day7 机械复测制度。主要使用：
+
+- 学完后的即时陌生迁移；
+- 历史 Bug 的陌生换题验证；
+- 后续学习和真实使用中的自然复现。
+
+只有很容易忘、未来又很少自然遇到的关键内容，或反复出现的核心 Bug，才主动考虑延迟复测。
+
+## 术语与材料
+
+- 重要日语考试术语首次出现时，可给“日语原词 + 假名 + 中文意思”；
+- 教材正式叫法与实际开发常用叫法不同时，补充两者区别；
+- 有学习价值的重要英文技术词可给英文原词；
+- 不使用中文谐音式英文发音；
+- 教材中的结构图、关系图、流程图若承载考试或知识关系，不能因为是图片而跳过；
+- 不为普通词批量添加术语信息。
+
+## 中断与恢复
+
+Human 疲劳或中断时可以停止。恢复时不要整章重讲，先用 1～2 个极短问题确认 mental model 是否恢复，再从原位置继续。
+
+## Current
+
+- 当前位置：以 Human 当前教材 / 当前学习窗口最近明确确认的进度为准；旧仓库记录不能覆盖更新的真实学习状态。
+- 活跃弱点：只记录当前仍实际存在并经过观察的 `△` / `×`。
+- 下一步：从最近明确确认的位置继续；如果位置不确定，先向 Human 确认当前教材页、章节或知识点，不自行猜测。
